@@ -1,4 +1,3 @@
-open! Core
 open! Ppxlib
 
 let is_debug_condition =
