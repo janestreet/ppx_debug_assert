@@ -2,9 +2,9 @@
  (name ppx_debug_assert)
  (public_name ppx_debug_assert)
  (kind ppx_rewriter)
- (libraries core ppxlib)
+ (libraries ppxlib)
  (preprocess
-  (pps ppx_jane ppxlib.metaquot)))
+  (pps ppxlib.metaquot)))
 
 (rule
  (targets build_env.ml)
